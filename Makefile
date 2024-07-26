@@ -1,5 +1,5 @@
 CC := clang 
-CFLAGS := -Xclang -fopenmp -Wall -g -O3
+CFLAGS := -Xclang -fopenmp -Wall -g #-O3
 LDFLAGS := -L/opt/homebrew/opt/libomp/lib -lomp
 CFLAGS += -Ilib/stb -I/opt/homebrew/opt/libomp/include 
 
