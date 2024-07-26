@@ -1,0 +1,8 @@
+.DS_Store
+.cache
+.trace
+bin
+obj
+compile_commands.json
+*.o
+output.png
